@@ -1,8 +1,13 @@
+// primer ejercicio imprimir el valor de la variable
+
 var mes=10 ;
 console.log("valor de mes es",mes);
-mes=prompt('Ingrese un numero del 0 al 12:','');
 
-if(mes >=1 && mes <=2){
+// segundo ejercicio
+
+mes=prompt('Ingrese un numero del 1 al 12:','');
+
+if(mes ==1 || mes ==2 || mes ==12 ){
  console.log ("es invierno")
 }
 if(mes >=3 && mes <=5){
@@ -13,8 +18,13 @@ if(mes >=6 && mes <=8){
  console.log ("es verano")
 }
 
-if(mes >=9 && mes <=12){
- console.log ("es otoño")
+if(mes >=9 && mes <=11){
+ console.log ("es otono")
 }
 
-console.log("Eduardo Ruben Najera Grijalva id 12500145");
+if(mes >=13){
+ console.log ("numero invalido")
+}
+// parte final
+
+console.log ("Eduardo Ruben Najera Grijalva carnet 22000145")
